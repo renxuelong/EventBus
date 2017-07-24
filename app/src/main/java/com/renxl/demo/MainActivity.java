@@ -1,15 +1,14 @@
-package com.renxl.eventbussource;
+package com.renxl.demo;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
-import com.renxl.eventbussource.eventbus.EventBus;
-import com.renxl.eventbussource.eventbus.Subscrible;
-import com.renxl.eventbussource.eventbus.ThreadMode;
+import com.renxl.eventbus.EventBus;
+import com.renxl.eventbus.Subscrible;
+import com.renxl.eventbus.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.renxl.eventbussource;
+package com.renxl.demo;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.renxl.eventbussource.eventbus;
+package com.renxl.eventbus;
 
 /**
  * Created by renxl

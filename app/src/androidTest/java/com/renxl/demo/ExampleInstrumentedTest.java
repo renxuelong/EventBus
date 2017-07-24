@@ -1,4 +1,4 @@
-package com.renxl.eventbussource;
+package com.renxl.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
