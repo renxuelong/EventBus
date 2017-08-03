@@ -22,6 +22,7 @@ public class SecondActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
+                        // 发送消息
                         EventBus.getInstance().post("Hello EventBus !");
                     }
                 }).start();

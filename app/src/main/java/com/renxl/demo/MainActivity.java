@@ -18,9 +18,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // 注册
         EventBus.getInstance().register(this);
     }
 
+    /**
+     * 接收方法
+     *
+     * @param content 消息内容
+     */
     @Subscrible(threadMode = ThreadMode.PostThread)
     public void receive(String content) {
         Log.i(TAG, "receive: " + Thread.currentThread().getName());
